@@ -1,0 +1,230 @@
+.cardapio{
+    font-family: 'Sofia Sans';
+    margin-left: 0.5rem;
+    margin-top:1rem;
+    text-align: center;
+    font-size: 4.375rem;
+}
+
+.favoritos{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.estrela{
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 2rem;
+    position: relative; bottom: -0.5rem;
+}
+
+.texto{
+    font-family: 'Sofia Sans';
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: relative; top: 0.6rem;
+}
+
+
+.caixa{
+    display: flex;
+    justify-content: left;   
+    overflow-x: auto;
+    padding: 1rem 0;
+   }
+
+.caixa li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 1.875rem;
+    box-shadow: 0rem 0rem 0.5rem 0rem rgb(255 153 0);
+    padding-bottom: 1.563rem;
+    transition: all 0.2s ease-out; 
+   }
+
+.details{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 1.875rem;
+}   
+
+.caixa img, .current-item{
+    width: 14.25rem;
+    height: 10.75rem;
+    object-fit: cover; 
+    margin-bottom: 1.25rem;
+    transition: all 0.2s ease-out;    
+   }
+
+
+.botao-add {
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border-radius:25px;
+    background-color:#ed9900;
+    text-align:center;
+    color:#FFF;
+    font-size:22px;
+    cursor:pointer;
+    margin-top: -41px;
+    margin-bottom: 10px;
+    transition:all ease .2s;
+}
+
+.botao-add:hover {
+    background-color:#c88a18;
+}
+
+.botao-add-combo {
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border-radius:25px;
+    background-color:#ed9900;
+    text-align:center;
+    color:#FFF;
+    font-size:22px;
+    cursor:pointer;
+    margin-top: -41px;
+    margin-bottom: 10px;
+    transition:all ease .2s;
+}
+
+.botao-add-combo:hover {
+    background-color:#c88a18;
+}
+
+.botao-add-doce {
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border-radius:25px;
+    background-color:#ed9900;
+    text-align:center;
+    color:#FFF;
+    font-size:22px;
+    cursor:pointer;
+    margin-top: -41px;
+    margin-bottom: 10px;
+    transition:all ease .2s;
+}
+
+.botao-add-doce:hover {
+    background-color:#c88a18;
+}
+
+
+.botao-add-salgado {
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border-radius:25px;
+    background-color:#ed9900;
+    text-align:center;
+    color:#FFF;
+    font-size:22px;
+    cursor:pointer;
+    margin-top: -41px;
+    margin-bottom: 10px;
+    transition:all ease .2s;
+}
+
+.botao-add-salgado:hover {
+    background-color:#c88a18;
+}
+
+.caixa li:hover{ 
+    transform: scale(1.1);
+    cursor: pointer;
+    border-color: rgb(255 153 0);
+   }
+
+.details:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-color: rgb(255 153 0);
+}
+
+
+.caixa::-webkit-scrollbar{
+    display: none;
+}
+
+.container {
+    position: relative;
+}
+
+.arrow-left{
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    opacity: 90%;
+    background: #E38201 center no-repeat ;
+    box-shadow: 0rem 0rem 1.5rem rgb(0 0 0 / 10%);
+    border-color: #ffffff00;
+    border-radius: 0.625rem;
+    height: 6.5rem;
+    width: 3rem;
+}
+
+.arrow-right{
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    z-index: 100;
+    transform: translateY(-50%);
+    opacity: 90%;
+    background: #E38201 center no-repeat ;
+    box-shadow: 0rem 0rem 1.5rem rgb(0 0 0 / 10%);
+    border-color: #ffffff00;
+    border-radius: 0.625rem;
+    height: 6.5rem;
+    width: 3rem;
+}
+
+.arrow-right:hover , .arrow-left:hover{
+    cursor: pointer;
+}
+
+#seta-esquerda {
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px rgb(0, 0, 0) inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(42deg);
+    left: 1.5rem;
+    top: 44%;
+    z-index: 1000;
+  }
+  
+  #seta-direita {
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px  rgb(0, 0, 0) inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(220deg);
+    right: 1rem;
+    top:44%;
+    z-index: 1000;
+  }
+
+  #icone{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    bottom: 9.75rem;
+    left: 4.5rem;
+
+  }

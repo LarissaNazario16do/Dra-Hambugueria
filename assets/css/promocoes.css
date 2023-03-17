@@ -1,0 +1,36 @@
+.titulo-sub-padrao{
+    font-family: 'Sofia Sans';
+    font-weight: normal;
+}
+
+.titulo-sub-padrao p{
+    font-size: 1rem;
+    color: rgb(69, 68, 68);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: relative; top: 0.6rem;
+}
+
+.texto-padrao-cardapio{
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: relative; top: 0.6rem;
+}
+
+.caixa{
+    font-family: 'Sofia Sans'; 
+    display: flex;
+    justify-content: left;   
+    overflow-x: auto;
+    padding: 1rem 0;
+   }
+
+.info h3{
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    color: rgb(239, 158, 6);
+    font-weight: 600;
+}

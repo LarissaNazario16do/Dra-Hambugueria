@@ -1,0 +1,163 @@
+.modal{
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(133, 133, 133, 0.719);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99999;
+    font-family: 'Sofia Sans';
+   }
+
+   .modal-content{
+    background-color:#ffffff;
+    padding: 40px;
+    width: 300px;
+    height: 510px;
+	box-shadow: -17px 8px 20px 10px rgb(59 57 57 / 77%);
+   }
+
+   span{
+    float: right;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-color: rgba(236, 232, 232, 0);
+    text-align: center;
+    line-height: 7px;
+    position: relative;
+    left: 32px;
+    bottom: 22px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #6a6565;
+
+   }
+
+   span:hover{
+    background-color: rgba(218, 213, 213, 0.89);
+   }
+
+   .show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+   }
+
+/*Estilização */
+
+form{
+    margin: 0 0 0 0;
+    padding: 0;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.box-grup-cadastro{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -1rem;
+}
+
+.box-cadastro label.nome{
+    margin-top: 0;
+}
+
+.box-cadastro label{
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: -0.3rem;
+    position: relative;
+    margin-bottom: 4px;
+}   
+
+.box-cadastro input{
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px -1px #000000;
+    align-items: center;
+    margin-left: -0.5rem;
+    width: 300px;
+    height: 30px;
+    padding: 0 0.5rem;
+    outline: none;
+    font-size: 13px;
+    position: relative;
+    left: -0.3em;
+}
+
+.box-cadastro input:hover{
+    background-color: #eeeeee57;
+}
+
+.box-cadastro input:focus-visible{
+    outline: 1px solid #000000;
+}
+
+#botao-cadastro{
+    font-size: 15px;
+    border-color:#3B67BC;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 2.1rem;
+    margin-left: 32%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#botao-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 0.5rem;
+    left: -0.9rem;
+}
+
+.modal-content{
+    text-align: center;
+    position: relative;
+}
+
+h4{
+    position:relative;
+    top: 2rem;
+    font-weight: bold;
+    top: 1rem;
+}
+
+#logo-bot{
+    position: relative;
+    bottom: 3rem;
+    width: 4rem;
+    height: 4rem;
+    left: 1rem;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.error-validation{
+    color: #FF1A1A;
+    position: absolute;
+    top:57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}

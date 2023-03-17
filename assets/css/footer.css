@@ -1,0 +1,169 @@
+.linha__footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.linha{
+    width: 25%;
+    height: 2px;
+    margin: 6px 0 5px 0;
+    background: #5856565c;
+    position: relative;
+}
+
+.linha:nth-last-child(1){
+    width: 74%;
+    left: 1%;
+}
+
+.logo-no-footer{
+    position: relative;
+}
+
+#logo-footer{
+    width: 3.5rem;
+    height: 3.5rem;
+    position: relative;
+    left: 9%;
+    bottom: 14rem;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#footer-ondinha img{
+     width: 100vw;
+    height: 17vw;
+}
+
+.redes__sociais{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.icon-face{
+    margin-left: 1rem;
+}
+
+.icon-face:hover .rede-stroke{
+    fill: #1c4185;
+    stroke: #1c4185;
+}
+
+.icon-face:hover .rede-fill{
+    fill: #FFF;
+}
+
+.icon-insta{
+    margin-left: 1rem;
+}
+
+.icon-insta:hover .rede-stroke{
+    fill: #bc36f6;
+    stroke: #bc36f6;
+}
+
+.icon-insta:hover .rede-fill-insta{
+    fill: #bc36f6;
+}
+
+.icon-insta:hover .rede-fill{
+    fill: #FFF;
+}
+
+.icon-twit{
+    margin-left: 1rem;
+}
+
+.icon-twit:hover .rede-fill{
+    fill: #FFF;
+}
+
+.icon-twit:hover .rede-stroke{
+    fill: #4acff7;
+    stroke: #4acff7;
+}
+
+.icon-tube{
+    margin-left: 1rem;
+}
+
+.icon-tube:hover .rede-stroke{
+    fill: #9A0000;
+    stroke: #9A0000;
+}
+
+.icon-tube:hover .rede-fill{
+    fill: #FFF;
+}
+
+.rede-fill {
+    fill: #6f6f6f;
+}
+
+.rede-fill-insta{
+    fill: #FFF;
+}    
+
+.rede-stroke {
+    stroke: #adadad;
+}
+
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 120px;
+    background-color: rgb(248, 169, 10);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom:16rem;
+    left: 12rem;
+}
+
+.tooltip-login .tooltiptext-login.span{
+    width: 177px;
+    height: 67px;
+}
+
+.tooltiptext-login.span{
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#rede__sociais-frase{
+    font-family: 'Sofia Sans';
+    font-weight: 600;
+    color: #6f6f6f;
+    position: relative;
+    left: 60%;
+}
+
+.tooltip-login .tooltiptext-login {
+    visibility: hidden;
+    width: 175px;
+    height: 92px;
+    background-color: rgb(248, 169, 10);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom:16rem;
+    left: 10rem;
+    line-height: 21px;
+}
+
+.tooltip-login:hover .tooltiptext-login {
+  visibility: visible;
+}
